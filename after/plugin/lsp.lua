@@ -21,7 +21,7 @@ lsp.setup()
 
 require('mason').setup({})
 require('mason-lspconfig').setup({
-  ensure_installed = { 'tsserver', 'rust_analyzer', "gopls", "html", "htmx", "cssls", "jsonls", "elixirls", "clangd", "cmake", "ltex", "marksman", "pyre", "bashls", "dockerls", "ols", "lua_ls" },
+  ensure_installed = { "asm_lsp", 'tsserver', 'rust_analyzer', "gopls", "html", "htmx", "cssls", "jsonls", "elixirls", "clangd", "cmake", "ltex", "marksman", "pyre", "bashls", "dockerls", "ols", "lua_ls" },
   handlers = {
 	  lsp.default_setup,
   }
